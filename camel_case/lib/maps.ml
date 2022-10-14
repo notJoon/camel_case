@@ -186,7 +186,7 @@ in the array. just allow it."]
 [@@@ocaml.text "how to dealing with collisons: [chaining] and [probing]
   former is just store multiple bindings at each array index. latter is a
   simple way to find an empty localtion is to search ahead through the array
-indices with a fixed stride."]
+  indices with a fixed stride."]
 
 module HashMap : TableMap = struct
   (** The [hash] is used to determine which bucket a key goes into. 

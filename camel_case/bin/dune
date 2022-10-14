@@ -1,0 +1,3 @@
+(executable
+ (public_name camel_case)
+ (libraries camel_case))
